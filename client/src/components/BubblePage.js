@@ -29,9 +29,10 @@ useEffect(() => {
 
   return (
     <>
-     <div className="bubblepage" data-testid={"bubblepage"}> 
+     
       <ColorList colors={colorList} updateColors={setColorList} />
       <Bubbles colors={colorList} />
+     
     </>
   );
 };
